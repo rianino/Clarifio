@@ -7,7 +7,7 @@ Students write notes, flag unfamiliar terms, and get concise definitions generat
 ## Tech Stack
 - **Frontend**: React 18 + Vite 7 + TypeScript (strict) + Tailwind CSS v3
 - **Backend / Auth / DB**: Supabase (Postgres + Row Level Security + Auth)
-- **AI**: Anthropic claude-sonnet-4-20250514, called from a Supabase Edge Function only
+- **AI**: Anthropic claude-sonnet-4-6, called from a Supabase Edge Function only
 - **Payments**: Stripe Checkout (hosted), webhook-based subscription management
 - **i18n**: i18next + react-i18next (EN + PT, scalable to more languages)
 
