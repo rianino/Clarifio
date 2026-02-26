@@ -43,7 +43,7 @@ serve(async (req) => {
     line_items: [{
       price_data: {
         currency: 'eur',
-        product_data: { name: 'Clarifio Pro', description: 'Unlimited notes, courses, and AI definitions.' },
+        product_data: { name: 'Clarifio Pro', description: 'Unlimited bases, zones, places, and AI definitions.' },
         unit_amount: priceConfig.amount,
         recurring: { interval: priceConfig.interval },
       },
