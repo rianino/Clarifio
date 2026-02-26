@@ -102,11 +102,11 @@ export function NoteSession({
               sessionName={session.name}
               onNavigate={onNavigate}
             />
-            <h1 className="text-brown-900 font-heading text-xl font-normal">{session.name}</h1>
           </div>
 
           <div className="flex flex-col md:flex-row gap-8 md:gap-10">
             <div className="flex-[3] min-w-0">
+              <h1 className="text-brown-900 font-heading text-xl font-normal mb-6">{session.name}</h1>
               <NotesPanel
                 notes={notes}
                 onChange={setNotes}
