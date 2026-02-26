@@ -1,0 +1,97 @@
+{
+  "app": {
+    "tagline": "Apontamentos de aula que se clarificam sozinhos."
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Palavra-passe",
+    "emailPlaceholder": "tu@universidade.pt",
+    "signIn": "Entrar",
+    "signUp": "Criar conta",
+    "signingIn": "A entrar…",
+    "creatingAccount": "A criar conta…",
+    "noAccount": "Sem conta?",
+    "alreadyHave": "Já tens uma?",
+    "signUpLink": "Regista-te",
+    "signInLink": "Entra aqui",
+    "checkEmail": "Verifica o teu email para confirmar a conta."
+  },
+  "nav": {
+    "signIn": "Entrar",
+    "signOut": "Sair"
+  },
+  "dashboard": {
+    "yourPrograms": "Início"
+  },
+  "programs": {
+    "empty": "Ainda sem programas. Adiciona o teu primeiro em baixo.",
+    "new": "Novo Programa",
+    "namePlaceholder": "Nome do programa…"
+  },
+  "courses": {
+    "empty": "Ainda sem cursos. Adiciona o teu primeiro em baixo.",
+    "new": "Novo Curso",
+    "namePlaceholder": "Nome do curso…"
+  },
+  "sessions": {
+    "empty": "Ainda sem sessões. Cria a tua primeira sessão de aula.",
+    "new": "Nova Sessão",
+    "namePlaceholder": "Nome da sessão, ex. Aula 12 — Camadas Limite",
+    "create": "Criar"
+  },
+  "notes": {
+    "title": "Notas",
+    "placeholder": "Começa a escrever…",
+    "saving": "A guardar…",
+    "saved": "Guardado"
+  },
+  "terms": {
+    "title": "Termos",
+    "placeholder": "Adicionar um termo…",
+    "addTitle": "Adicionar termo",
+    "removeTitle": "Remover termo",
+    "defineTitle": "Definir este termo",
+    "clarifyAll": "Clarificar Tudo",
+    "clarifying": "A clarificar…",
+    "defining": "A definir…",
+    "empty": "Marca termos que queres definir — escreve acima e prime Enter.",
+    "clarifyBlockedHint": "Faz upgrade para clarificar mais termos"
+  },
+  "upgrade": {
+    "title": "Upgrade para Clarifio Pro",
+    "monthly": "Mensal",
+    "annual": "Anual",
+    "monthlyLabel": "por mês",
+    "annualLabel": "por ano",
+    "feature1": "Programas e cursos ilimitados",
+    "feature2": "Sessões de notas ilimitadas",
+    "feature3": "Definições de IA ilimitadas",
+    "feature4": "Notas guardadas e sincronizadas",
+    "cta": "Começar por {{price}}",
+    "createAccount": "Cria a tua conta",
+    "email": "Email",
+    "password": "Palavra-passe (mín. 8 caracteres)",
+    "proceedToPayment": "Continuar para pagamento",
+    "processing": "A configurar a tua conta…",
+    "limitProgram": "Atingiste o limite de 1 programa no plano gratuito.",
+    "limitCourse": "Atingiste o limite de 1 curso no plano gratuito.",
+    "limitClarify": "Já usaste a tua clarificação gratuita."
+  },
+  "signIn": {
+    "title": "Bem-vindo de volta",
+    "subtitle": "Entra na tua conta Clarifio.",
+    "cta": "Entrar",
+    "noAccount": "Ainda sem conta?",
+    "upgradeLink": "Obter Clarifio Pro"
+  },
+  "guest": {
+    "banner": "Plano gratuito · 1 programa · 1 curso · 1 clarificação",
+    "upgrade": "Upgrade"
+  },
+  "common": {
+    "add": "Adicionar",
+    "cancel": "Cancelar",
+    "back": "Voltar",
+    "loading": "A carregar…"
+  }
+}

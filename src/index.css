@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #F4F2ED;
+    color: #2A2118;
+    line-height: 1.7;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Remove default focus outlines — we handle them */
+  *:focus {
+    outline: none;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #3B5A40;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .auth-input {
+    @apply w-full px-4 py-3 rounded-lg text-brown-900 text-sm
+           bg-cream-100 border border-cream-300
+           placeholder-brown-200
+           transition-all duration-200
+           focus:border-brown-300 focus:bg-cream-50;
+  }
+
+  .inline-input {
+    @apply bg-transparent border-none outline-none
+           text-brown-800 placeholder-brown-200 text-sm
+           border-b border-cream-300
+           focus:border-brown-300
+           transition-colors duration-200
+           py-1;
+  }
+}
+
+@layer utilities {
+  .fade-in {
+    animation: fadeIn 0.3s ease forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(2px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CFC7BA;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BBA898;
+}

@@ -1,0 +1,97 @@
+{
+  "app": {
+    "tagline": "Lecture notes that clarify themselves."
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "you@university.edu",
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "signingIn": "Signing in…",
+    "creatingAccount": "Creating account…",
+    "noAccount": "No account?",
+    "alreadyHave": "Already have one?",
+    "signUpLink": "Sign up",
+    "signInLink": "Sign in",
+    "checkEmail": "Check your email to confirm your account."
+  },
+  "nav": {
+    "signIn": "Sign in",
+    "signOut": "Sign out"
+  },
+  "dashboard": {
+    "yourPrograms": "Home"
+  },
+  "programs": {
+    "empty": "No programs yet. Add your first one below.",
+    "new": "New Program",
+    "namePlaceholder": "Program name…"
+  },
+  "courses": {
+    "empty": "No courses yet. Add your first one below.",
+    "new": "New Course",
+    "namePlaceholder": "Course name…"
+  },
+  "sessions": {
+    "empty": "No sessions yet. Create your first lecture session.",
+    "new": "New Session",
+    "namePlaceholder": "Session name, e.g. Lecture 12 — Boundary Layers",
+    "create": "Create"
+  },
+  "notes": {
+    "title": "Notes",
+    "placeholder": "Start writing…",
+    "saving": "Saving…",
+    "saved": "Saved"
+  },
+  "terms": {
+    "title": "Terms",
+    "placeholder": "Add a term…",
+    "addTitle": "Add term",
+    "removeTitle": "Remove term",
+    "defineTitle": "Define this term",
+    "clarifyAll": "Clarify All",
+    "clarifying": "Clarifying…",
+    "defining": "Defining…",
+    "empty": "Flag terms you want defined — type above and press Enter.",
+    "clarifyBlockedHint": "Upgrade to clarify more terms"
+  },
+  "upgrade": {
+    "title": "Upgrade to Clarifio Pro",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "monthlyLabel": "per month",
+    "annualLabel": "per year",
+    "feature1": "Unlimited programs and courses",
+    "feature2": "Unlimited note sessions",
+    "feature3": "Unlimited AI definitions",
+    "feature4": "Notes securely synced and backed up",
+    "cta": "Get started for {{price}}",
+    "createAccount": "Create your account",
+    "email": "Email",
+    "password": "Password (min. 8 characters)",
+    "proceedToPayment": "Continue to payment",
+    "processing": "Setting up your account…",
+    "limitProgram": "You've reached the 1-program free limit.",
+    "limitCourse": "You've reached the 1-course free limit.",
+    "limitClarify": "You've used your free AI clarification."
+  },
+  "signIn": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to your Clarifio account.",
+    "cta": "Sign in",
+    "noAccount": "No account yet?",
+    "upgradeLink": "Get Clarifio Pro"
+  },
+  "guest": {
+    "banner": "Free plan · 1 program · 1 course · 1 AI clarification",
+    "upgrade": "Upgrade"
+  },
+  "common": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "back": "Back",
+    "loading": "Loading…"
+  }
+}
