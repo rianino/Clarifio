@@ -66,7 +66,7 @@ serve(async (req: Request) => {
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 512,
-        system: 'You are a dictionary. Define each term clearly and generally, as a dictionary would. Never define a term using the term itself or a direct synonym. Each definition must be 7 words or fewer. Return a JSON object mapping each term to its definition. Respond with valid JSON only — no markdown fences, no extra text.',
+        system: 'You are a dictionary. Define each term clearly and generally, as a dictionary would. Never define a term using the term itself or a direct synonym. Each definition must be 7 words or fewer. Always respond in the same language as the term being defined. Return a JSON object mapping each term to its definition. Respond with valid JSON only — no markdown fences, no extra text.',
         messages: [
           { role: 'user', content: userMessage },
         ],
