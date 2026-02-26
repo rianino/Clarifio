@@ -105,7 +105,7 @@ export function NoteSession({
           </div>
 
           <div className="flex flex-col md:flex-row gap-8 md:gap-10">
-            <div className="flex-[3] min-w-0">
+            <div className="flex-[3] min-w-0 order-2 md:order-1">
               <h1 className="text-brown-900 font-heading text-xl font-normal mb-6">{session.name}</h1>
               <NotesPanel
                 notes={notes}
@@ -115,7 +115,7 @@ export function NoteSession({
             </div>
 
             <div
-              className="flex-[2] min-w-0 bg-cream-100 rounded-lg px-5 py-5 self-start sticky top-8"
+              className="flex-[2] min-w-0 bg-cream-100 rounded-lg px-5 py-5 self-start sticky top-8 order-1 md:order-2"
               style={{ minHeight: '300px' }}
             >
               <TermsPanel
