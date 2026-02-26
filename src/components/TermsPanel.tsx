@@ -95,8 +95,8 @@ export function TermsPanel({
         // Mark guest's free clarify as used
         if (isGuest) onMarkClarified?.()
       }
-    } catch (err) {
-      setClarifyError(err instanceof Error ? err.message : 'Something went wrong.')
+    } catch {
+      setClarifyError(t('terms.clarifyError'))
     } finally {
       setClarifying(false)
     }

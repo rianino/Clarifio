@@ -55,7 +55,8 @@
     "clarifying": "A clarificar…",
     "defining": "A definir…",
     "empty": "Marca termos que queres definir — escreve acima e prime Enter.",
-    "clarifyBlockedHint": "Faz upgrade para clarificar mais termos"
+    "clarifyBlockedHint": "Faz upgrade para clarificar mais termos",
+    "clarifyError": "Algo correu mal. Por favor tenta mais tarde."
   },
   "upgrade": {
     "title": "Upgrade para Clarifio Pro",

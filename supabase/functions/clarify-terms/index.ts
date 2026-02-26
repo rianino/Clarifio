@@ -53,11 +53,7 @@ serve(async (req: Request) => {
   }
 
   const termsJson = JSON.stringify(terms)
-  const notesContext = notes?.trim()
-    ? `\n\nLecture notes context:\n"""\n${notes.slice(0, 4000)}\n"""`
-    : ''
-
-  const userMessage = `Please define the following terms:${notesContext}\n\nTerms to define: ${termsJson}\n\nRespond with ONLY a valid JSON object mapping each term (exactly as provided) to its definition. Example: {"Reynolds number": "A dimensionless quantity..."}`
+  const userMessage = `Define the following terms: ${termsJson}\n\nRespond with ONLY a valid JSON object mapping each term (exactly as provided) to its definition. Example: {"mitosis": "Cell division producing two identical daughter cells"}`
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -70,7 +66,7 @@ serve(async (req: Request) => {
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 512,
-        system: 'You are a concise academic assistant. Define the following terms in the context of these lecture notes. Each definition must be 7 words or fewer. Return a JSON object mapping each term to its definition. Respond with valid JSON only — no markdown fences, no extra text.',
+        system: 'You are a dictionary. Define each term clearly and generally, as a dictionary would. Never define a term using the term itself or a direct synonym. Each definition must be 7 words or fewer. Return a JSON object mapping each term to its definition. Respond with valid JSON only — no markdown fences, no extra text.',
         messages: [
           { role: 'user', content: userMessage },
         ],

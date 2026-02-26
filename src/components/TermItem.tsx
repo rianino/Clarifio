@@ -21,6 +21,7 @@ export function TermItem({
 }: TermItemProps) {
   const { t } = useTranslation()
   const [defining, setDefining] = useState(false)
+  const [defineError, setDefineError] = useState(false)
   const [hovered, setHovered] = useState(false)
 
   const defineSingle = async () => {
@@ -29,6 +30,7 @@ export function TermItem({
       return
     }
     setDefining(true)
+    setDefineError(false)
     try {
       const supabaseUrl = import.meta.env.VITE_SUPABASE_URL as string
       const response = await fetch(`${supabaseUrl}/functions/v1/clarify-terms`, {
@@ -47,7 +49,11 @@ export function TermItem({
           onDefinitionUpdate(term.id, def)
           if (isGuest) onMarkClarified?.()
         }
+      } else {
+        setDefineError(true)
       }
+    } catch {
+      setDefineError(true)
     } finally {
       setDefining(false)
     }
@@ -88,6 +94,10 @@ export function TermItem({
 
           {defining && !term.definition && (
             <p className="text-brown-300 text-xs mt-1 animate-pulse">{t('terms.defining')}</p>
+          )}
+
+          {defineError && (
+            <p className="text-brown-300 text-xs mt-1">{t('terms.clarifyError')}</p>
           )}
 
           {term.definition && (

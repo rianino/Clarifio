@@ -55,7 +55,8 @@
     "clarifying": "Clarifying…",
     "defining": "Defining…",
     "empty": "Flag terms you want defined — type above and press Enter.",
-    "clarifyBlockedHint": "Upgrade to clarify more terms"
+    "clarifyBlockedHint": "Upgrade to clarify more terms",
+    "clarifyError": "Something went wrong. Please try again later."
   },
   "upgrade": {
     "title": "Upgrade to Clarifio Pro",
