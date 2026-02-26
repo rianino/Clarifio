@@ -68,9 +68,9 @@ serve(async (req: Request) => {
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-6',
-        max_tokens: 1024,
-        system: 'You are a concise academic assistant. Define the following terms in the context of these lecture notes. Keep definitions clear, brief (2-3 sentences max), and accessible to a university student. Return a JSON object mapping each term to its definition. Respond with valid JSON only — no markdown fences, no extra text.',
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 512,
+        system: 'You are a concise academic assistant. Define the following terms in the context of these lecture notes. Each definition must be 7 words or fewer. Return a JSON object mapping each term to its definition. Respond with valid JSON only — no markdown fences, no extra text.',
         messages: [
           { role: 'user', content: userMessage },
         ],
