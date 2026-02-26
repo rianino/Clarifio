@@ -24,19 +24,19 @@
     "yourPrograms": "Início"
   },
   "programs": {
-    "empty": "Ainda sem programas. Adiciona o teu primeiro em baixo.",
-    "new": "Novo Programa",
-    "namePlaceholder": "Nome do programa…"
+    "empty": "Ainda sem bases. Adiciona a tua primeira em baixo.",
+    "new": "Nova Base",
+    "namePlaceholder": "Nome da base…"
   },
   "courses": {
-    "empty": "Ainda sem cursos. Adiciona o teu primeiro em baixo.",
-    "new": "Novo Curso",
-    "namePlaceholder": "Nome do curso…"
+    "empty": "Ainda sem zonas. Adiciona a tua primeira em baixo.",
+    "new": "Nova Zona",
+    "namePlaceholder": "Nome da zona…"
   },
   "sessions": {
-    "empty": "Ainda sem sessões. Cria a tua primeira sessão de aula.",
-    "new": "Nova Sessão",
-    "namePlaceholder": "Nome da sessão, ex. Aula 12 — Camadas Limite",
+    "empty": "Ainda sem lugares. Cria o teu primeiro.",
+    "new": "Novo Lugar",
+    "namePlaceholder": "Nome do lugar, ex. Aula 12 — Camadas Limite",
     "create": "Criar"
   },
   "notes": {

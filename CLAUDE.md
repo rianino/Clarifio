@@ -1,8 +1,14 @@
 # Clarifio — Claude Code Project Notes
 
 ## What this project is
-A lecture note-taking web app with AI-powered term definitions.
-Students write notes, flag unfamiliar terms, and get concise definitions generated using their own notes as context.
+A lecture note-taking web app with AI-powered term definitions, built around the **memory palace** (Method of Loci) mental model — the same technique Sherlock Holmes uses to navigate his "mind palace".
+
+The spatial navigation metaphor is intentional and core to the product:
+- **Base** (formerly Program) — the top-level space, like a building
+- **Zone** (formerly Course) — a room or area within the base
+- **Place** (formerly Session) — a specific spot within the zone where memories (notes) live
+
+Students write notes, flag unfamiliar terms, and get concise AI definitions to anchor understanding in each Place.
 
 ## Tech Stack
 - **Frontend**: React 18 + Vite 7 + TypeScript (strict) + Tailwind CSS v3

@@ -24,19 +24,19 @@
     "yourPrograms": "Home"
   },
   "programs": {
-    "empty": "No programs yet. Add your first one below.",
-    "new": "New Program",
-    "namePlaceholder": "Program name…"
+    "empty": "No bases yet. Add your first one below.",
+    "new": "New Base",
+    "namePlaceholder": "Base name…"
   },
   "courses": {
-    "empty": "No courses yet. Add your first one below.",
-    "new": "New Course",
-    "namePlaceholder": "Course name…"
+    "empty": "No zones yet. Add your first one below.",
+    "new": "New Zone",
+    "namePlaceholder": "Zone name…"
   },
   "sessions": {
-    "empty": "No sessions yet. Create your first lecture session.",
-    "new": "New Session",
-    "namePlaceholder": "Session name, e.g. Lecture 12 — Boundary Layers",
+    "empty": "No places yet. Create your first one.",
+    "new": "New Place",
+    "namePlaceholder": "Place name, e.g. Lecture 12 — Boundary Layers",
     "create": "Create"
   },
   "notes": {
