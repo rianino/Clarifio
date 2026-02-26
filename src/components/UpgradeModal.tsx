@@ -49,6 +49,7 @@ export function UpgradeModal({ reason, onClose }: UpgradeModalProps) {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'apikey': import.meta.env.VITE_SUPABASE_ANON_KEY as string,
           'Authorization': `Bearer ${token}`,
         },
         body: JSON.stringify({ plan, email }),
