@@ -27,7 +27,7 @@ export function ClarifyButton({ onClick, loading, disabled, blocked, onBlockedCl
         flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium
         transition-all duration-200
         ${isInert
-          ? 'opacity-40 cursor-not-allowed bg-cream-200 text-brown-400'
+          ? 'opacity-40 cursor-default bg-cream-200 text-brown-400'
           : blocked
             ? 'bg-cream-200 text-brown-400 hover:bg-accent hover:text-white cursor-pointer'
             : 'bg-accent text-white hover:bg-accent-hover shadow-sm hover:shadow-md'
