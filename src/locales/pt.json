@@ -64,7 +64,7 @@
     "annual": "Anual",
     "monthlyLabel": "por mês",
     "annualLabel": "por ano",
-    "feature1": "Programas e cursos ilimitados",
+    "feature1": "Bases e zonas ilimitadas",
     "feature2": "Sessões de notas ilimitadas",
     "feature3": "Definições de IA ilimitadas",
     "feature4": "Notas guardadas e sincronizadas",
@@ -74,8 +74,8 @@
     "password": "Palavra-passe (mín. 8 caracteres)",
     "proceedToPayment": "Continuar para pagamento",
     "processing": "A configurar a tua conta…",
-    "limitProgram": "Atingiste o limite de 1 programa no plano gratuito.",
-    "limitCourse": "Atingiste o limite de 1 curso no plano gratuito.",
+    "limitProgram": "Atingiste o limite gratuito de 1 base.",
+    "limitCourse": "Atingiste o limite gratuito de 1 zona.",
     "limitClarify": "Já usaste a tua clarificação gratuita."
   },
   "signIn": {
@@ -86,7 +86,7 @@
     "upgradeLink": "Obter Clarifio Pro"
   },
   "guest": {
-    "banner": "Plano gratuito · 1 programa · 1 curso · 1 clarificação",
+    "banner": "Plano gratuito · 1 base · 1 zona · 1 clarificação",
     "upgrade": "Upgrade"
   },
   "common": {

@@ -64,7 +64,7 @@
     "annual": "Annual",
     "monthlyLabel": "per month",
     "annualLabel": "per year",
-    "feature1": "Unlimited programs and courses",
+    "feature1": "Unlimited bases and zones",
     "feature2": "Unlimited note sessions",
     "feature3": "Unlimited AI definitions",
     "feature4": "Notes securely synced and backed up",
@@ -74,8 +74,8 @@
     "password": "Password (min. 8 characters)",
     "proceedToPayment": "Continue to payment",
     "processing": "Setting up your account…",
-    "limitProgram": "You've reached the 1-program free limit.",
-    "limitCourse": "You've reached the 1-course free limit.",
+    "limitProgram": "You've reached the free limit of 1 base.",
+    "limitCourse": "You've reached the free limit of 1 zone.",
     "limitClarify": "You've used your free AI clarification."
   },
   "signIn": {
@@ -86,7 +86,7 @@
     "upgradeLink": "Get Clarifio Pro"
   },
   "guest": {
-    "banner": "Free plan · 1 program · 1 course · 1 AI clarification",
+    "banner": "Free plan · 1 base · 1 zone · 1 AI clarification",
     "upgrade": "Upgrade"
   },
   "common": {
